@@ -7,5 +7,5 @@ const selectBeers = (state: IAppState) => state.beers;
 
 export const selectBeerList = createSelector(
   selectBeers,
-  (state: IBeerState) => state.beers
+    (state: IBeerState) => state.beers
 );
