@@ -1,27 +1,30 @@
-# Beerme
+# Beer My Food!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+Simply type in what you're eating and you'll get a tasty brewdog beer to accompany it!
 
 ## Development server
 
+Run `npm install` if not done already.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## What next?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+There is no backend yet for this project, in the time frame given i believe this horizontally sliced solution gives the best usability. In the future a backend for favouriting / saving beers and reviewing could be implemeneted.
 
-## Build
+Testing properly implemented.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Better security by implementing better typer casting, CSP, and XSS prevention - although angular generally handles this quite well.
 
-## Running unit tests
+Error handling system by overriding the angular module and providing custom responses.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Browser compatibility.
 
-## Running end-to-end tests
+Better accessibility.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+BEM.
 
-## Further help
+Design improvements!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+With more features will come more modularity for both the ngrx and components.
+
+...and lots more!
