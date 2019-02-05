@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "beerme": {
+    "beer-my-food": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,15 +17,14 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/beerme",
+            "outputPath": "dist/beer-my-food",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/_redirects"
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"
@@ -62,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "beerme:build"
+            "browserTarget": "beer-my-food:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "beerme:build:production"
+              "browserTarget": "beer-my-food:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "beerme:build"
+            "browserTarget": "beer-my-food:build"
           }
         },
         "test": {
@@ -107,7 +106,7 @@
         }
       }
     },
-    "beerme-e2e": {
+    "beer-my-food-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -116,11 +115,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "beerme:serve"
+            "devServerTarget": "beer-my-food:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "beerme:serve:production"
+              "devServerTarget": "beer-my-food:serve:production"
             }
           }
         },
@@ -136,5 +135,5 @@
       }
     }
   },
-  "defaultProject": "beerme"
+  "defaultProject": "beer-my-food"
 }
