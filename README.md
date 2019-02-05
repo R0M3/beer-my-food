@@ -14,7 +14,7 @@ There is no backend yet for this project, in the time frame given i believe this
 
 Testing properly implemented.
 
-Better security by implementing better typer casting, CSP, and XSS prevention - although angular generally handles this quite well.
+Better security by implementing better type casting, CSP, and XSS prevention - although angular generally handles this quite well.
 
 Error handling system by overriding the angular module and providing custom responses.
 
