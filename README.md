@@ -1,6 +1,7 @@
 # Beer My Food!
 
 Simply type in what you're eating and you'll get a tasty brewdog beer to accompany it!
+Live version here: https://adoring-jennings-6c17fe.netlify.com/
 
 ## Development server
 
